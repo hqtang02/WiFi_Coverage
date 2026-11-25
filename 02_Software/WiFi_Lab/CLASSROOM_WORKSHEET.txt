@@ -3,25 +3,27 @@ Name/group: ________________  Date: ________________
 
 Lesson 1 — From distance to coverage
 1. Select a classroom point and router site; show coordinates, squared distance and coverage decision.
-2. Complete TODO 1–2 and compare your hand calculation with the program result.
-3. What should happen when distance equals the radius? Give a boundary example.
-Evidence: calculations, test results and a boundary explanation.
+2. What should happen when distance equals the radius? Give a boundary example.
+3. Why can two routers' individual coverage counts not always be added? List the intersection and union for a two-router example.
+4. Does covering one detection point prove usable Wi-Fi throughout the room? Give a reason.
+Evidence: calculations, a boundary explanation and a set-union note. This lesson is unplugged and does not include TODO 1–2.
 
 Lesson 2 — From coverage to evaluating a plan
-1. Why can two routers' individual coverage counts not always be added?
-2. Complete TODO 3–5 and guided blocks A and B.
-3. Compare two plans by covered and missed classrooms and installation cost.
-4. In Debug → Overlap, predict the incorrect behavior, run the seeded error, repair it and verify.
-Evidence: comparison and a Bug → Cause → Repair → Test note.
+1. In Basic lab, complete TODO 1–2 and compare your hand calculation with the program result.
+2. From 7 sites choose 3: why is 7×6×5 divided by 6? Compare two plans by covered and missed classrooms and installation cost.
+3. On paper, fill in cost K, cost score L, coverage Q and the 70/30 score F for BDE and BDG. Is 1100 a spending limit?
+Evidence: one expected and actual test result, and the paper cost and score calculations. Do not open Optimization lab in this lesson.
 
 Lesson 3 — Search and justify an optimum
-1. Complete block C and run the assembled exhaustive search.
-2. Predict the effect of increasing cost weight; then test all three scenarios.
+1. In Optimization lab, complete TODO 3–5 and the expression checks.
+2. In Debug → Overlap, predict the incorrect behavior, run the seeded error, repair it and verify.
+3. Complete guided blocks A, B and C and run the assembled exhaustive search.
+4. Predict the effect of increasing cost weight; then test all three scenarios.
 Weights  Sites        Covered      Total cost      Missed rooms
 100/0    ________     ________     ________        __________
 70/30    ________     ________     ________        __________
 30/70    ________     ________     ________        __________
-3. In Debug → Comparison, explain best_score initialization and the comparison operator.
-4. Recommend one plan and describe its trade-off, including classrooms not covered.
-5. Which simplifying assumption most needs real data: fixed radius, site costs or one-point-per-classroom?
+5. In Debug → Comparison, explain best_score initialization and the comparison operator.
+6. Recommend one plan and describe its trade-off, including classrooms not covered.
+7. Which simplifying assumption most needs real data: fixed radius, site costs or one-point-per-classroom?
 Submission: export Evidence TXT with a justified recommendation and a model limitation. Do not compare scores from different weighting schemes as if the objectives were identical.
