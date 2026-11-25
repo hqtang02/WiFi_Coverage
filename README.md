@@ -41,9 +41,9 @@ The default learning scenarios use coverage/cost weights of **100/0**, **70/30**
 
 | Lesson | Focus | Learning activities |
 | --- | --- | --- |
-| **1 — From Campus to Model** | Unplugged reasoning and basic code | Plot detection points, calculate squared distances, handle boundary cases, combine coverage sets, and complete Basic Lab TODO 1–2. |
-| **2 — Cost, Scoring, and Debugging** | Optimization expressions | Derive the 35 combinations, implement cost and scoring expressions (TODO 3–5), run checks, and investigate overlapping coverage. |
-| **3 — Search and Evidence** | Algorithmic reasoning | Build guided exhaustive search (TODO 6), compare weight settings, debug decision logic, and export an evidence record. |
+| **1 — From Campus to Model** | Unplugged reasoning throughout (no computers) | Plot detection points, calculate squared distances, handle boundary cases, and combine coverage sets. This lesson does not include TODO 1–2. |
+| **2 — Basic Lab, Cost, and Scoring** | First use of the program; Basic lab | Open the GUI (Basic lab), complete TODO 1–2, then derive the 35 combinations and work through cost and scoring on paper. |
+| **3 — Search and Evidence** | Optimization lab; algorithmic reasoning | In Optimization lab, implement cost and scoring expressions (TODO 3–5), run checks, investigate overlapping coverage, build guided exhaustive search (TODO 6), compare weight settings, debug decision logic, and export an evidence record. |
 
 The sequence is designed around **three 40-minute lessons**, progressing from paper-based work to a coded model and then to evidence-based decision-making.
 
